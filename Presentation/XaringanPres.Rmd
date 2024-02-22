@@ -1,0 +1,44 @@
+---
+title: "Flood Resilience in Da Nang [TO BE CHANGED]"
+subtitle: ""
+author: "Numerous"
+institute: "RStudio, PBC"
+date: "22 March 2024"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: solarize
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("./Bib.bib", check = FALSE)
+
+library(knitcitations)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# library(xaringanthemer)
+# style_mono_light(
+#   base_color = "#23395b",
+#   header_font_google = google_font("Josefin Sans"),
+#   text_font_google   = google_font("Montserrat", "300", "300i"),
+ #  code_font_google   = google_font("Fira Mono")
+# )
+```
+
+# Demo Slide No. 1
