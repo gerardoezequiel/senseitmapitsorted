@@ -1,7 +1,7 @@
 ---
-title: "Flood Resilience in Da Nang [TO BE CHANGED]"
-subtitle: "[SUBTITLE]"
-author: "Numerous Authors [TO BE EDITED]"
+title: "A Flood Resilience Strategy for Da Nang, Vietnam"
+subtitle: ""
+author: "Gerardo Ezequiel Martín Carreño, Nikhil Desai, Soki Kimura, Jan Magnszewski, Viktoria Pues, Gavin Rolls"
 date: "22 March 2024"
 output:
   xaringan::moon_reader:
@@ -41,7 +41,7 @@ library(knitcitations)
 ```
 
 # Problem Context and Background
-
+[GAVIN ROLLS WIP - PLACEHOLDER]
 
 ---
 # Problem Statement 
