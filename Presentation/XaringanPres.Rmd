@@ -1,8 +1,7 @@
 ---
 title: "Flood Resilience in Da Nang [TO BE CHANGED]"
-subtitle: ""
-author: "Numerous"
-institute: "RStudio, PBC"
+subtitle: "[SUBTITLE]"
+author: "Numerous Authors [TO BE EDITED]"
 date: "22 March 2024"
 output:
   xaringan::moon_reader:
@@ -41,4 +40,42 @@ library(knitcitations)
 # )
 ```
 
-# Demo Slide No. 1
+# Problem Context and Background
+
+
+---
+# Problem Statement 
+
+---
+# Existing Resilience Strategies
+
+---
+# Social and Environmental Impacts
+
+---
+# Relevance to Global Policy
+
+---
+class: inverse, center, middle
+# Analysis
+
+---
+# Datasets
+
+---
+# Methodology
+
+---
+class: inverse, center, middle
+# Project Details
+
+
+---
+# Timeline
+
+
+---
+# Expense Sheet
+
+---
+# References
