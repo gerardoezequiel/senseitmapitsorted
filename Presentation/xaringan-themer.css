@@ -34,7 +34,7 @@
   --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Fira Mono';
   --code-font-is-google: 1;
-  --base-font-size: 16px;
+  --base-font-size: 20px;
   --text-font-size: 1rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
@@ -186,6 +186,14 @@ a, a > code {
 .pull-right + * {
   clear: both;
 }
+
+.pull-right-image {
+    float: right;
+    width: 47%;
+    font-size: 14px;
+}
+}
+
 img, video, iframe {
   max-width: 100%;
 }

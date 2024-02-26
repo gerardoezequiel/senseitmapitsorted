@@ -50,8 +50,33 @@ background-size: cover
 ---
 # City Background
 
+.pull-left[
 **Central Vietnam's Largest City**
-  * Population:
+  * Population: 1,374,562 as of 2019 - `r Citep(myBib, "CongBoKet")` 
+  * Major Port for the Central Coast - `r Citep(myBib, "100rcdanangteamResilienceCityNang2016")` 
+  
+**Climate**
+  * Extremely hot and humid
+      * 80% annual average humidity
+      * 25.9C˚ mean annual temperature
+  * Wet season from September to March - `r Citep(myBib, "opitz-stapletonHeatIndexTrends2016")` 
+
+  
+]
+
+.pull-right-image[
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/da_nang_centre.jpg')
+```
+
+.center[Central Da Nang - `r Citet(myBib, "vietnamtourismReasonsWhyNang")`]
+
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/da_nang_loc.png')
+```
+
+.center[Da Nang within Vietnam - `r Citet(myBib, "encyclopediabritannicaNangVietnam2024")`]
+]
 
 ---
 class: inverse, center, middle
@@ -93,3 +118,7 @@ class: inverse, center, middle
 
 ---
 # References
+
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 1, end = 4)
+```
