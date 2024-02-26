@@ -76,6 +76,11 @@ h1, h2, h3 {
   font-weight: 600;
   color: var(--header-color);
 }
+
+.h1-background {
+  background-color: var(--black);
+}
+
 .remark-slide-content {
   background-color: var(--background-color);
   font-size: 1rem;
@@ -121,6 +126,15 @@ a, a > code {
   padding-right: 4em;
   font-size: 0.9em;
 }
+
+.footnote-background {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-size: 0.9em;
+  background-color: var(--white);
+}
+
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
 }
