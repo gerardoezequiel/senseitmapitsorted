@@ -135,6 +135,10 @@ a, a > code {
   background-color: var(--white);
 }
 
+.footnote-cite {
+  font-size: 14px;
+}
+
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
 }

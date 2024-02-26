@@ -79,11 +79,27 @@ background-size: cover
 ]
 
 ---
-class: inverse, center, middle
-# The Problem
+# The Problem:
 
----
-# [Problem Statement]
+### Da Nang is at the crosshairs of many different types of flooding
+
+**Includes: River flooding, storm-induced flooding, and sea level rise**
+
+**Floods of all kinds caused £83m in damage from 1998-2020**
+
+.pull-left[
+```{r, echo = FALSE, out.width='95%', fig.align='center'}
+  knitr::include_graphics('img/car_flood_da_nang.jpg')
+```
+]
+
+.pull-right[
+```{r, echo = FALSE, out.width='95%', fig.align='center'}
+  knitr::include_graphics('img/people_in_water.jpg')
+```
+]
+
+.footnote-cite[Sources: `r Citet(myBib, "vnexpressRapidUrbanizationDelivers")`, `r Citet(myBib, "danangtoday000HomesSubmerged2020")`, `r Citet(myBib, "thianFloodVulnerabilityAssessment2022")`]
 
 ---
 # Existing Resilience Strategies
