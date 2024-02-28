@@ -102,13 +102,50 @@ background-size: cover
 .footnote-cite[Sources: `r Citet(myBib, "vnexpressRapidUrbanizationDelivers")`, `r Citet(myBib, "danangtoday000HomesSubmerged2020")`, `r Citet(myBib, "thianFloodVulnerabilityAssessment2022")`]
 
 ---
-# Existing Resilience Strategies
+
 
 ---
 # Social and Environmental Impacts
 
 ---
-# Relevance to Global Policy
+# Policy Framework Overview 
+.pull-left[
+**Global**
+- Sustainable Development Goals 
+- Paris Agreement 
+- Sendai Framework for Disaster Risk Reduction 
+
+**National**
+- National Determined Contribution
+- National Adaptation Plan
+- National Strategy on Natural Disaster Prevention
+- Orientation Master Plan 2025
+
+**Local**
+- Resilient Da Nang Strategy 
+- Da Nang Development Plan 2030 
+]
+
+
+.pull-right[
+```{r, echo = FALSE, out.width='95%', fig.align='center'}
+  knitr::include_graphics('img/policy.jpg')
+```
+]
+
+---
+# Existing resilience strategy
+
+
+
+.pull-right-image[
+```{r, echo = FALSE, out.width='75%', fig.align='right'}
+  knitr::include_graphics('img/resilience strategy.png')
+```
+]
+
+
+
 
 ---
 class: inverse, center, middle
