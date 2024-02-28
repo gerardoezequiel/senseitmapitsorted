@@ -126,7 +126,6 @@ background-size: cover
 - Da Nang Development Plan 2030 
 ]
 
-
 .pull-right[
 ```{r, echo = FALSE, out.width='95%', fig.align='center'}
   knitr::include_graphics('img/policy.jpg')
@@ -136,7 +135,17 @@ background-size: cover
 ---
 # Existing resilience strategy
 
+.pull-left[
+**Climate Risk**  
+- Flooding is identified as the main climate risk in the City with adverse impact on people and infrastructure. 
 
+**Strtagic Objective**
+- Become a prepared City, a City with infrastructure systems which can recover, and be well prepared for challenges in development process." 
+
+**Action**
+- Assessing flooding risk in new urbanized areas
+
+]
 
 .pull-right-image[
 ```{r, echo = FALSE, out.width='75%', fig.align='right'}
