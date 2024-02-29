@@ -155,7 +155,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 </div>
 
 ---
-# Policy Framework Overview 
+# Overvivew Policy Context
 .pull-left[
 **Global**
 - Sustainable Development Goals 
@@ -180,7 +180,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 ]
 
 ---
-detail on global policy 
+# Contributions to global and national policy 
 
 SDG 11.5 REDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS
 
