@@ -180,6 +180,17 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 ]
 
 ---
+detail on global policy 
+
+SDG 11.5 REDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS
+
+By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.
+
+Sendaai Risk = vulnerability x exposure x hazard 
+
+National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS 
+
+---
 # Existing resilience strategy
 
 .pull-left[
@@ -191,6 +202,9 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 
 **Action**
 - Assessing flooding risk in new urbanized areas
+  - Infrastructure Investment 
+  - Planning Restrictions 
+  - Resettlement 
 
 ]
 
