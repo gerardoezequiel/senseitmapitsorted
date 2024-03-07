@@ -102,9 +102,6 @@ background-size: cover
 .footnote-cite[Sources: `r Citet(myBib, "vnexpressRapidUrbanizationDelivers")`, `r Citet(myBib, "danangtoday000HomesSubmerged2020")`, `r Citet(myBib, "thianFloodVulnerabilityAssessment2022")`]
 
 ---
-
-
----
 ## Social Impacts
 
 - **Increased Vulnerability:** Lowland communities, often poorer, face heightened flood risks, impacting economic well-being and increasing indebtedness.
@@ -160,7 +157,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 
 
 ---
-# Overvivew Policy Context
+# Policy Context
 .pull-left[
 **Global**
 - Sustainable Development Goals 
@@ -191,7 +188,7 @@ SDG 11.5 REDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS
 
 By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.
 
-Sendaai Risk = vulnerability x exposure x hazard 
+Sendai Risk = vulnerability x exposure x hazard 
 
 National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS 
 
@@ -219,27 +216,31 @@ National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS
 ```
 ]
 
-
-
+---
+# Objectives
 
 ---
 class: inverse, center, middle
-# Analysis
+# Methods
 
 ---
-# Datasets
+# Data Inputs
 
 ---
-# Methodology
+# Analysis - Flood Risk Assessment (ML)
+
+---
+# Analysis - Vulnerability Assessment
+
+---
+# Output
 
 ---
 class: inverse, center, middle
-# Project Details
-
+# Project Logistics
 
 ---
 # Timeline
-
 
 ---
 # Expense Sheet
