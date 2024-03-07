@@ -217,7 +217,7 @@ National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS
 ]
 
 ---
-# Objectives
+# Objectives (Gerardo)
 
 ---
 class: inverse, center, middle
@@ -227,17 +227,17 @@ class: inverse, center, middle
 # Data Inputs
 
 ---
-# Analysis - Flood Risk Assessment (ML)
+# Analysis - Flood Risk Assessment (ML) (Jan)
 
 ---
-# Analysis - Vulnerability Assessment
+# Analysis - Vulnerability Assessment (Land Use/Expansion) (Soki)
 
 ---
 # Output
 
 ---
 class: inverse, center, middle
-# Project Logistics
+# Project Logistics (Vicki)
 
 ---
 # Timeline
