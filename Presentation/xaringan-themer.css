@@ -288,6 +288,10 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   padding-top: 7rem;
 }
 
+.bibliography {
+  font-size: 12px;
+}
+
 @page { margin: 0; }
 @media print {
   .remark-slide-scaler {
