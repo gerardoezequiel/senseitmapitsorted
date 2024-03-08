@@ -232,6 +232,63 @@ class: inverse, center, middle
 ---
 # Analysis - Vulnerability Assessment (Land Use/Expansion) (Soki)
 
+.pull-left[
+
+## Data Inputs
+
+| Data | Source |
+| --- | --- |
+| Population time series data (current / predicted) | [World Population Review](https://worldpopulationreview.com/world-cities/da-nang-population)
+| Urban built up area | Sentinel-2 data |
+
+]
+
+
+## Methodology
+
+1. Calculate the area of urban built up area using classification of land use from earth observation imagery
+2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
+3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
+  - no intervention (cellular automata model of urban sprawl)
+  - current masterplan intervention (building up areas designated by planning constraints)
+
+.pull-right[
+
+## Methodology
+
+1. Calculate the area of urban built up area using classification of land use from earth observation imagery
+2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
+3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
+  - no intervention (cellular automata model of urban sprawl)
+  - current masterplan intervention (building up areas designated by planning constraints)
+  
+]
+
+---
+# Expected outputs
+
+.pull-left[
+
+## Built-up area estimations
+
+| Year | Population | Built up area (km^2) |
+| --- | --- | --- |
+| 2000 |  |  |
+| 2010 |  |  |
+| 2020 |  |  |
+| 2030 |  |  |
+| 2040 |  |  |
+
+]
+
+.pull-right[
+
+## Map of predicted built-up areas
+
+( some maps showing extent of urban area for different scenarios in different years )
+
+]
+
 ---
 # Output
 
