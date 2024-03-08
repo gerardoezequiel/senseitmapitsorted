@@ -230,7 +230,7 @@ class: inverse, center, middle
 # Analysis - Flood Risk Assessment (ML) (Jan)
 
 ---
-# Analysis - Vulnerability Assessment (Land Use/Expansion) (Soki)
+# Land Use / Expansion Analysis
 
 .pull-left[
 
@@ -242,15 +242,6 @@ class: inverse, center, middle
 | Urban built up area | Sentinel-2 data |
 
 ]
-
-
-## Methodology
-
-1. Calculate the area of urban built up area using classification of land use from earth observation imagery
-2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
-3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
-  - no intervention (cellular automata model of urban sprawl)
-  - current masterplan intervention (building up areas designated by planning constraints)
 
 .pull-right[
 
