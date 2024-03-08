@@ -35,21 +35,21 @@ background-image: url('img/sentinel_zoom_out.png')
 background-size: cover
 # .h1-background[The City: Da Nang, Vietnam]
 
-.footnote-background[&lt;a name=cite-europeanspaceagencySentinel2024&gt;&lt;/a&gt;([European Space Agency, 2024](#bib-europeanspaceagencySentinel2024)) ] 
+.footnote-background[([European Space Agency, 2024](#bib-europeanspaceagencySentinel2024)) ] 
 
 ---
 # City Background
 
 .pull-left[
 **Central Vietnam's Largest City**
-  * Population: 1,374,562 as of 2019 - &lt;a name=cite-CongBoKet&gt;&lt;/a&gt;([Đà Nẵng Online, 2024](#bib-CongBoKet)) 
-  * Major Port for the Central Coast - &lt;a name=cite-100rcdanangteamResilienceCityNang2016&gt;&lt;/a&gt;([100RC Da Nang team, 2016](#bib-100rcdanangteamResilienceCityNang2016)) 
+  * Population: 1,374,562 as of 2019 - ([Đà Nẵng Online, 2024](#bib-CongBoKet)) 
+  * Major Port for the Central Coast - ([100RC Da Nang team, 2016](#bib-100rcdanangteamResilienceCityNang2016)) 
   
 **Climate**
   * Extremely hot and humid
       * 80% annual average humidity
       * 25.9C˚ mean annual temperature
-  * Wet season from September to March - &lt;a name=cite-opitz-stapletonHeatIndexTrends2016&gt;&lt;/a&gt;([Opitz-Stapleton, Sabbag, Hawley, Tran, Hoang, and Nguyen, 2016](#bib-opitz-stapletonHeatIndexTrends2016)) 
+  * Wet season from September to March - ([Opitz-Stapleton, Sabbag, Hawley et al., 2016](#bib-opitz-stapletonHeatIndexTrends2016)) 
 
   
 ]
@@ -57,11 +57,11 @@ background-size: cover
 .pull-right-image[
 &lt;img src="img/da_nang_centre.jpg" width="75%" style="display: block; margin: auto;" /&gt;
 
-.center[Central Da Nang - &lt;a name=cite-vietnamtourismReasonsWhyNang&gt;&lt;/a&gt;[Vietnam Tourism (2024)](#bib-vietnamtourismReasonsWhyNang)]
+.center[Central Da Nang - [Vietnam Tourism (2024)](#bib-vietnamtourismReasonsWhyNang)]
 
 &lt;img src="img/da_nang_loc.png" width="75%" style="display: block; margin: auto;" /&gt;
 
-.center[Da Nang within Vietnam - &lt;a name=cite-encyclopediabritannicaNangVietnam2024&gt;&lt;/a&gt;[Encyclopedia Britannica (2024)](#bib-encyclopediabritannicaNangVietnam2024)]
+.center[Da Nang within Vietnam - [Encyclopedia Britannica (2024)](#bib-encyclopediabritannicaNangVietnam2024)]
 ]
 
 ---
@@ -69,7 +69,7 @@ background-size: cover
 
 ### Da Nang's rapid urbanisation puts it at increased risk of flooding
 
-**Development in lowland areas is a key concern** - &lt;a name=cite-huongAnalysisUrbanExpansion&gt;&lt;/a&gt;([Thi Viet Huong, Nagasawa, and Tsutsui, 2013](#bib-huongAnalysisUrbanExpansion))
+**Development in lowland areas is a key concern** - ([Thi Viet Huong, Nagasawa, and Tsutsui, 2013](#bib-huongAnalysisUrbanExpansion))
 
 **Floods of all kinds caused £83m in damage from 1998-2020**
 
@@ -81,7 +81,7 @@ background-size: cover
 &lt;img src="img/people_in_water.jpg" width="85%" style="display: block; margin: auto;" /&gt;
 ]
 
-.footnote-cite[Sources: &lt;a name=cite-vnexpressRapidUrbanizationDelivers&gt;&lt;/a&gt;[VnExpress (2024)](#bib-vnexpressRapidUrbanizationDelivers), &lt;a name=cite-danangtoday000HomesSubmerged2020&gt;&lt;/a&gt;[Da Nang Today (2020)](#bib-danangtoday000HomesSubmerged2020), &lt;a name=cite-thianFloodVulnerabilityAssessment2022&gt;&lt;/a&gt;[Thi An, Izuru, Narumasa, Raghavan, Hanh, Van An, Long, Thi Thuy, and Minh (2022)](#bib-thianFloodVulnerabilityAssessment2022)]
+.footnote-cite[Sources: [VnExpress (2024)](#bib-vnexpressRapidUrbanizationDelivers), [Da Nang Today (2020)](#bib-danangtoday000HomesSubmerged2020), [Thi An, Izuru, Narumasa et al. (2022)](#bib-thianFloodVulnerabilityAssessment2022)]
 
 ---
 ## Social Impacts
@@ -115,7 +115,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 
 &lt;img src="img/vietnam_economic_zones.png" width="95%" style="display: block; margin: auto;" /&gt;
 
-.center[Economic Zones of Vietnam - &lt;a name=cite-zhouFirmLevelEvidence2021&gt;&lt;/a&gt;[Zhou and Botzen (2021)](#bib-zhouFirmLevelEvidence2021)]
+.center[Economic Zones of Vietnam - [Zhou and Botzen (2021)](#bib-zhouFirmLevelEvidence2021)]
 
 ]
 
@@ -131,7 +131,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 
 &lt;img src="img/vietnam_floods.jpg" width="40%" style="display: block; margin: auto;" /&gt;
 
-.center[Flooding in Hue - &lt;a name=cite-vuVietnamFloodDeath2020&gt;&lt;/a&gt;[Vu (2020)](#bib-vuVietnamFloodDeath2020)]
+.center[Flooding in Hue - [Vu (2020)](#bib-vuVietnamFloodDeath2020)]
 
 
 ---
@@ -206,6 +206,63 @@ class: inverse, center, middle
 ---
 # Analysis - Vulnerability Assessment (Land Use/Expansion) (Soki)
 
+.pull-left[
+
+## Data Inputs
+
+| Data | Source |
+| --- | --- |
+| Population time series data (current / predicted) | [World Population Review](https://worldpopulationreview.com/world-cities/da-nang-population)
+| Urban built up area | Sentinel-2 data |
+
+]
+
+
+## Methodology
+
+1. Calculate the area of urban built up area using classification of land use from earth observation imagery
+2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
+3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
+  - no intervention (cellular automata model of urban sprawl)
+  - current masterplan intervention (building up areas designated by planning constraints)
+
+.pull-right[
+
+## Methodology
+
+1. Calculate the area of urban built up area using classification of land use from earth observation imagery
+2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
+3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
+  - no intervention (cellular automata model of urban sprawl)
+  - current masterplan intervention (building up areas designated by planning constraints)
+  
+]
+
+---
+# Expected outputs
+
+.pull-left[
+
+## Built-up area estimations
+
+| Year | Population | Built up area (km^2) |
+| --- | --- | --- |
+| 2000 |  |  |
+| 2010 |  |  |
+| 2020 |  |  |
+| 2030 |  |  |
+| 2040 |  |  |
+
+]
+
+.pull-right[
+
+## Map of predicted built-up areas
+
+( some maps showing extent of urban area for different scenarios in different years )
+
+]
+
 ---
 # Output
 
@@ -224,35 +281,27 @@ class: inverse, center, middle
 
 .bibliography[
 &lt;a name=bib-100rcdanangteamResilienceCityNang2016&gt;&lt;/a&gt;[100RC Da Nang
-team](#cite-100rcdanangteamResilienceCityNang2016) (2016). _Resilience
-Plan for Da Nang City, VietNam_.
+team](#cite-100rcdanangteamResilienceCityNang2016) (2016). _Resilience Plan for Da Nang City, VietNam_.
 
-&lt;a name=bib-CongBoKet&gt;&lt;/a&gt;[Đà Nẵng Online](#cite-CongBoKet) (2024).
-_Công bố kết quả sơ bộ tổng điều tra dân số 2019: Cả nước có hơn 96,2
-triệu người, Đà Nẵng có 1.134.310 người - Đà Nẵng Online_.
+&lt;a name=bib-CongBoKet&gt;&lt;/a&gt;[Đà Nẵng Online](#cite-CongBoKet) (2024). _Công bố kết quả sơ bộ tổng điều tra
+dân số 2019: Cả nước có hơn 96,2 triệu người, Đà Nẵng có 1.134.310 người - Đà Nẵng Online_.
 
-&lt;a name=bib-danangtoday000HomesSubmerged2020&gt;&lt;/a&gt;[Da Nang
-Today](#cite-danangtoday000HomesSubmerged2020) (2020). _Over 4,000
-homes submerged under water as torrential downpours lash Da Nang_. Vi.
+&lt;a name=bib-danangtoday000HomesSubmerged2020&gt;&lt;/a&gt;[Da Nang Today](#cite-danangtoday000HomesSubmerged2020)
+(2020). _Over 4,000 homes submerged under water as torrential downpours lash Da Nang_. Vi.
 
 &lt;a name=bib-encyclopediabritannicaNangVietnam2024&gt;&lt;/a&gt;[Encyclopedia
-Britannica](#cite-encyclopediabritannicaNangVietnam2024) (2024). _Da
-Nang, Vietnam_. En.
+Britannica](#cite-encyclopediabritannicaNangVietnam2024) (2024). _Da Nang, Vietnam_. En.
 
 &lt;a name=bib-europeanspaceagencySentinel2024&gt;&lt;/a&gt;[European Space
 Agency](#cite-europeanspaceagencySentinel2024) (2024). _Sentinel 2_.
 
-&lt;a name=bib-opitz-stapletonHeatIndexTrends2016&gt;&lt;/a&gt;[Opitz-Stapleton,
-S., L. Sabbag, K. Hawley, et
-al.](#cite-opitz-stapletonHeatIndexTrends2016) (2016). "Heat index
-trends and climate change implications for occupational heat exposure
-in Da Nang, Vietnam". In: _Climate Services_ 2-3, pp. 41-51.
+&lt;a name=bib-opitz-stapletonHeatIndexTrends2016&gt;&lt;/a&gt;[Opitz-Stapleton, S., L. Sabbag, K. Hawley, et
+al.](#cite-opitz-stapletonHeatIndexTrends2016) (2016). "Heat index trends and climate change implications
+for occupational heat exposure in Da Nang, Vietnam". In: _Climate Services_ 2-3, pp. 41-51.
 
-&lt;a name=bib-thianFloodVulnerabilityAssessment2022&gt;&lt;/a&gt;[Thi An, T., S.
-Izuru, T. Narumasa, et
-al.](#cite-thianFloodVulnerabilityAssessment2022) (2022). "Flood
-vulnerability assessment at the local scale using remote sensing and
-GIS techniques: a case study in Da Nang City, Vietnam". In: _Journal of
+&lt;a name=bib-thianFloodVulnerabilityAssessment2022&gt;&lt;/a&gt;[Thi An, T., S. Izuru, T. Narumasa, et
+al.](#cite-thianFloodVulnerabilityAssessment2022) (2022). "Flood vulnerability assessment at the local
+scale using remote sensing and GIS techniques: a case study in Da Nang City, Vietnam". In: _Journal of
 Water and Climate Change_ 13.9, pp. 3217-3238.
 ]
     </textarea>
