@@ -139,6 +139,10 @@ a, a > code {
   font-size: 14px;
 }
 
+.image-caption {
+  font-size: 14px;
+}
+
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
 }
@@ -286,6 +290,10 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 .remark-slide-content.header_background {
   padding-top: 7rem;
+}
+
+.body-small {
+  font-size: 18px;
 }
 
 .bibliography {

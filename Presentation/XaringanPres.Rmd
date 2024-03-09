@@ -129,7 +129,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 
 ]
 
-.pull-right[
+.pull-right-image[
 
 ```{r, echo = FALSE, out.width='95%', fig.align='center'}
   knitr::include_graphics('img/vietnam_economic_zones.png')
@@ -152,9 +152,9 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 ```{r, echo = FALSE, out.width='40%', fig.align='center'}
   knitr::include_graphics('img/vietnam_floods.jpg')
 ```
-
+.image-caption[
 .center[Flooding in Hue - `r Citet(myBib, "vuVietnamFloodDeath2020")`]
-
+]
 
 ---
 # Policy Context
@@ -175,10 +175,14 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 - Da Nang Development Plan 2030 
 ]
 
-.pull-right[
-```{r, echo = FALSE, out.width='95%', fig.align='center'}
+.pull-right-image[
+```{r, echo = FALSE, out.width='85%', fig.align='center'}
   knitr::include_graphics('img/policy.jpg')
 ```
+.center[
+
+Da Nang's Flood and Resilience Policy Hierarchy
+]
 ]
 
 ---
@@ -196,10 +200,11 @@ National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS
 # Existing resilience strategy
 
 .pull-left[
+.body-small[
 **Climate Risk**  
 - Flooding is identified as the main climate risk in the City with adverse impact on people and infrastructure. 
 
-**Strtagic Objective**
+**Strategic Objective**
 - Become a prepared City, a City with infrastructure systems which can recover, and be well prepared for challenges in development process." 
 
 **Action**
@@ -207,13 +212,18 @@ National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS
   - Infrastructure Investment 
   - Planning Restrictions 
   - Resettlement 
-
+]
 ]
 
 .pull-right-image[
-```{r, echo = FALSE, out.width='75%', fig.align='right'}
+```{r, echo = FALSE, out.width='85%', fig.align='center'}
   knitr::include_graphics('img/resilience strategy.png')
 ```
+.center[
+
+Resilience Strategy for Da Nang - `r Citet(myBib, "100rcdanangteamResilienceCityNang2016")`
+]
+
 ]
 
 ---
@@ -232,27 +242,29 @@ class: inverse, center, middle
 ---
 # Land Use / Expansion Analysis
 
+
 .pull-left[
 
 ## Data Inputs
-
+.body-small[
 | Data | Source |
 | --- | --- |
 | Population time series data (current / predicted) | [World Population Review](https://worldpopulationreview.com/world-cities/da-nang-population)
 | Urban built up area | Sentinel-2 data |
 
 ]
+]
 
 .pull-right[
 
 ## Methodology
-
+.body-small[
 1. Calculate the area of urban built up area using classification of land use from earth observation imagery
-2. Calculate the required spread (km^2) of urban area, using the population prediction as the independent variable
+2. Calculate the required spread (km<sup>2</sup>) of urban area, using the population prediction as the independent variable
 3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
   - no intervention (cellular automata model of urban sprawl)
   - current masterplan intervention (building up areas designated by planning constraints)
-  
+]
 ]
 
 ---
@@ -261,15 +273,15 @@ class: inverse, center, middle
 .pull-left[
 
 ## Built-up area estimations
-
-| Year | Population | Built up area (km^2) |
+.body-small[
+| Year | Population | Built up area (km<sup>2</sup>) |
 | --- | --- | --- |
 | 2000 |  |  |
 | 2010 |  |  |
 | 2020 |  |  |
 | 2030 |  |  |
 | 2040 |  |  |
-
+]
 ]
 
 .pull-right[
