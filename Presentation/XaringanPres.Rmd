@@ -316,6 +316,6 @@ class: inverse, center, middle
 
 .bibliography[
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 1, end = 15)
+PrintBibliography(myBib, start = 1, end = 18)
 ```
 ]
