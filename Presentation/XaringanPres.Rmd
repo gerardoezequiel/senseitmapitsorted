@@ -159,10 +159,11 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 ---
 # Policy Context
 .pull-left[
+.body-small[
 **Global**
-- Sustainable Development Goals 
-- Paris Agreement 
-- Sendai Framework for Disaster Risk Reduction 
+- Sustainable Development Goals
+- Paris Agreement
+- Sendai Framework for Disaster Risk Reduction
 
 **National**
 - National Determined Contribution
@@ -171,8 +172,13 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 - Orientation Master Plan 2025
 
 **Local**
-- Resilient Da Nang Strategy 
-- Da Nang Development Plan 2030 
+- Resilient Da Nang Strategy
+- Da Nang Development Plan 2030
+]
+
+.footnote-cite[
+Sources: `r Citep(myBib, "Agenda2023")`, `r Citep(myBib, "unitednationsParisAgreement2015")`, `r Citep(myBib, "undrrSendaiFrameworkDisaster2015")`,  `r Citep(myBib, "socialistrepublicofvietnamNationallyDeterminedContribution2022")`, `r Citep(myBib, "socialistrepublicofvietnamNationalAdaptationPlan2023")`, `r Citep(myBib, "socialistrepublicofvietnamVietnamNationalStrategy2021")`, `r Citep(myBib, "100rcdanangteamResilienceCityNang2016")`
+]
 ]
 
 .pull-right-image[
@@ -310,6 +316,6 @@ class: inverse, center, middle
 
 .bibliography[
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 1, end = 12)
+PrintBibliography(myBib, start = 1, end = 15)
 ```
 ]
