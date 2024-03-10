@@ -245,6 +245,22 @@ class: inverse, center, middle
 ---
 # Analysis - Flood Risk Assessment (ML) (Jan)
 
+.pull-left[
+**Dependent variable** 
+
+A proxy of flooded areas could be quantified e.g. with a Normalized Change Index of NDWI images before and during a flooding event `r Citep(myBib, "vanama2021change")`.
+]
+
+.pull-right[
+**Independent variables** 
+
+A Random Forest pixel-based model will be built, taking as inputs: DEM data, NDBI (impervious surfaces), Topographic Wetness Index (TWI), RGB bands, or a composite of other bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`
+]
+
+**Model Deployment**
+
+The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
+
 ---
 # Land Use / Expansion Analysis
 
