@@ -243,7 +243,7 @@ class: inverse, center, middle
 # Data Inputs
 
 ---
-# Analysis - Flood Risk Assessment (ML) (Jan)
+# Analysis - Flood Risk Assessment
 
 .pull-left[
 **Dependent variable** 
