@@ -162,6 +162,9 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
+  background-image: url('img/logo.png');
+  background-position: 100% 100%;
+  background-size: 200px;
 }
 .title-slide .remark-slide-number {
   display: none;
@@ -297,7 +300,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 
 .bibliography {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 @page { margin: 0; }
