@@ -242,7 +242,9 @@ class: inverse, center, middle
 ---
 # Data Inputs & Methodological Overview
 
-*Jan's Flowchart goes here*
+```{r, echo = FALSE, out.width='85%', fig.align='center'}
+  knitr::include_graphics('img/methodsflowchart.png')
+```
 
 ---
 # Analysis - Flood Risk Assessment
