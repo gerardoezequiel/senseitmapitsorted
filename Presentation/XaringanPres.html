@@ -38,7 +38,7 @@ background-size: cover
 .footnote-background[&lt;a name=cite-europeanspaceagencySentinel2024&gt;&lt;/a&gt;([European Space Agency, 2024](#bib-europeanspaceagencySentinel2024)) ] 
 
 ---
-# City Background
+## City Background
 
 .pull-left[
 **Central Vietnam's Largest City**
@@ -65,7 +65,7 @@ background-size: cover
 ]
 
 ---
-# The Problem:
+## The Problem:
 
 ### Da Nang's rapid urbanisation puts it at increased risk of flooding
 
@@ -236,12 +236,12 @@ A Random Forest pixel-based model will be built, taking as inputs: DEM data, NDB
 The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
 
 ---
-# Land Use / Expansion Analysis
+## Land Use / Expansion Analysis
 
 
 .pull-left[
 
-## Data Inputs
+### Data Inputs
 .body-small[
 | Data | Source |
 | --- | --- |
@@ -253,38 +253,72 @@ The model could be deployed before the next expected flood event in the rainy se
 
 .pull-right[
 
-## Methodology
+### Methodology
 .body-small[
 1. Calculate the area of urban built up area using classification of land use from earth observation imagery
 2. Calculate the required spread (km&lt;sup&gt;2&lt;/sup&gt;) of urban area, using the population prediction as the independent variable
-3. (if possible) Calculate the predicted spread of urban area for various scenarios, including
+3. Calculate the predicted spread of urban area for various scenarios, including
   - no intervention (cellular automata model of urban sprawl)
   - current masterplan intervention (building up areas designated by planning constraints)
 ]
 ]
 
 ---
-# Expected outputs
+## Expected outputs
+
+### Built-up area estimations
 
 .pull-left[
 
-## Built-up area estimations
 .body-small[
+
 | Year | Population | Built up area (km&lt;sup&gt;2&lt;/sup&gt;) |
-| --- | --- | --- |
-| 2000 |  |  |
-| 2010 |  |  |
-| 2020 |  |  |
-| 2030 |  |  |
-| 2040 |  |  |
+| ---: | ---: | ---: |
+| 2005 | 676,000 | 103 |
+| 2010 | 805,000 | 116 |
+| 2015 | 959,000 | 129 |
+| 2020 | 1,125,000 | 141 |
+| 2025 | 1,286,000 | 155 |
+| 2030 | 1,449,000 | 168 |
+| 2035 | 1,603,000 | 181 |
+
+Population estimates from &lt;a name=cite-populationstat2024&gt;&lt;/a&gt;[PopulationStat (2024)](#bib-populationstat2024)
+Built up area estimates from &lt;a name=cite-friedl2022&gt;&lt;/a&gt;[Friedl and Sulla-Menashe (2022)](#bib-friedl2022) for 2001-2022, estimated from model for 2023 onwards
+
 ]
 ]
 
 .pull-right[
 
-## Map of predicted built-up areas
+&lt;img src="img/urban_area_comparison.png" width="100%" style="display: block; margin: auto;" /&gt;
 
-( some maps showing extent of urban area for different scenarios in different years )
+
+The built up area correlates with the population - an estimate of 181 km&lt;sup&gt;2&lt;/sup&gt; will be required by the year 2035
+
+
+]
+
+
+---
+
+## Built Up Area Prediction
+
+.pull-left[
+
+&lt;img src="img/urban_area.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+.center[Built up area growth of Da Nang - created from dataset by ([Friedl and Sulla-Menashe, 2022](#bib-friedl2022))]
+
+]
+
+.pull-right[
+
+
+&lt;img src="img/DaNang_urbanArea.gif" width="75%" style="display: block; margin: auto;" /&gt;
+
+.center[Change of built up area from 2001-2022. Created from dataset by [Friedl and Sulla-Menashe (2022)](#bib-friedl2022)]
+
+Urban growth model will be applied to extend this prediction to the year 2035 - the estimated area growing to 181 km&lt;sup&gt;2&lt;/sup&gt;
 
 ]
 
@@ -324,6 +358,10 @@ Nang, Vietnam_. En.
 &lt;a name=bib-europeanspaceagencySentinel2024&gt;&lt;/a&gt;[European Space
 Agency](#cite-europeanspaceagencySentinel2024) (2024). _Sentinel 2_.
 
+&lt;a name=bib-friedl2022&gt;&lt;/a&gt;[Friedl, M. and D.
+Sulla-Menashe](#cite-friedl2022) (2022). _MODIS/Terra+Aqua Land Cover
+Type Yearly L3 Global 500m SIN Grid V061_.
+
 &lt;a name=bib-munawar2022remote&gt;&lt;/a&gt;[Munawar, H. S., A. W. Hammad, and S.
 T. Waller](#cite-munawar2022remote) (2022). "Remote sensing methods for
 flood prediction: A review". In: _Sensors_ 22.3, p. 960.
@@ -333,6 +371,10 @@ S., L. Sabbag, K. Hawley, et
 al.](#cite-opitz-stapletonHeatIndexTrends2016) (2024). "Heat index
 trends and climate change implications for occupational heat exposure
 in Da Nang, Vietnam". In: _Climate Services_ 2-3, pp. 41-51.
+
+&lt;a
+name=bib-populationstat2024&gt;&lt;/a&gt;[PopulationStat](#cite-populationstat2024)
+(2024). _Da Nang, Vietnam Population (2024) - Population Stat_.
 
 &lt;a
 name=bib-socialistrepublicofvietnamVietnamNationalStrategy2021&gt;&lt;/a&gt;[Socialist
@@ -384,15 +426,6 @@ Bhatt](#cite-vanama2021change) (2021). "Change detection based flood
 mapping using multi-temporal Earth Observation satellite images: 2018
 flood event of Kerala, India". In: _European Journal of Remote Sensing_
 54.1, pp. 42-58.
-
-&lt;a name=bib-vietnamtourismReasonsWhyNang&gt;&lt;/a&gt;[Vietnam
-Tourism](#cite-vietnamtourismReasonsWhyNang) (2024). _4 Reasons Why Da
-Nang is Vietnam’s Most Livable City_.
-
-&lt;a
-name=bib-vnexpressRapidUrbanizationDelivers&gt;&lt;/a&gt;[VnExpress](#cite-vnexpressRapidUrbanizationDelivers)
-(2024). _Rapid urbanization delivers Da Nang's worst flooding ever -
-VnExpress International_. En.
 ]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
