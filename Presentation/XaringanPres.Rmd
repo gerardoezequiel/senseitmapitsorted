@@ -381,23 +381,9 @@ class: inverse, center, middle
   knitr::include_graphics('img/timeline.png')
 ```
 ---
-# Expense Sheet
-```{r, echo=FALSE, message=FALSE}
-library(tidyverse) 
-library(kableExtra)
-my_table <- read.csv("costs.csv")
-
-num_rows_to_include <- 15
-
-my_table %>%
-  head(num_rows_to_include) %>%
-  kable("html") %>%
-  kable_styling(
-    full_width = FALSE, # Adjust as needed
-    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
-    position = "center" # Center the table on the slide
-  ) %>%
-  column_spec(1, bold = TRUE) # Make the first column bold
+# Project Costs
+```{r, echo = FALSE, out.width='100%', fig.align='center'}
+  knitr::include_graphics('img/costs.png')
 ```
 
 
