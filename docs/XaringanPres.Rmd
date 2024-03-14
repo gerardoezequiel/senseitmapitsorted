@@ -242,9 +242,9 @@ background-image: url('img/danangflooding.jpg')
 background-size: cover
 background-position: center
 
-<div style="font-weight: bold; font-size: 2em;">
+<div style="font-weight: extra-bold; font-family: Josefin Sans; font-size: 2em;">
 
-<span style="background-color: rgba(40, 56, 88, 0.5); color: white; border-radius: 5px;">
+<span style="background-color: rgba(40, 56, 88, 0.8); color: white; border-radius: 5px;">
 
 In the context of Da Nang's urban expansion, how can remote sensing be applied to improve urban planning strategies and substantially reduce flood vulnerability?
 
@@ -359,9 +359,9 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
 ```{r, echo = FALSE, out.width='75%', fig.align='center'}
   knitr::include_graphics('https://baodanang.vn/dataimages/202209/original/images1665961_images1665187_Tao_dong_luc2.jpg')
 ```
-
-The Da Nang Master Plan, cited from `r Citet(myBib, "tung2022")`
-
+.center[
+  .image-caption[The Da Nang Master Plan, cited from `r Citet(myBib, "tung2022")`]
+]
 ]
 
 
