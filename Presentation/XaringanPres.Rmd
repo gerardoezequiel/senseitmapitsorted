@@ -252,7 +252,7 @@ class: inverse, center, middle
 .pull-left[
 **Dependent variable** 
 
-A proxy of flooded areas could be quantified e.g. with a Normalized Change Index of NDWI images before and during a flooding event `r Citep(myBib, "vanama2021change")`.
+A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event `r Citep(myBib, "tripathy2022global")`.
 ]
 
 .pull-right[
