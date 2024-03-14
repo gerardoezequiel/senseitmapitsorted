@@ -320,9 +320,9 @@ Built up area estimates from `r Citet(myBib, "friedl2022")` for 2001-2022, estim
   knitr::include_graphics('img/urban_area_comparison.png')
 ```
 
-
+.body-small[
 The built up area correlates with the population - an estimate of 181 km<sup>2</sup> will be required by the year 2035
-
+]
 
 ]
 
@@ -368,10 +368,19 @@ class: inverse, center, middle
 # Expense Sheet
 
 ---
-# References
+# References (1/2)
 
 .bibliography[
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(myBib, start = 1, end = 18)
+PrintBibliography(myBib, start = 1, end = 12)
+```
+]
+
+---
+# References (2/2)
+
+.bibliography[
+```{r, results='asis', echo=FALSE}
+PrintBibliography(myBib, start = 13, end = 22)
 ```
 ]
