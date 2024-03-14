@@ -211,7 +211,7 @@ National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS
 - Flooding is identified as the main climate risk in the City with adverse impact on people and infrastructure. 
 
 **Strategic Objective**
-- Become a prepared City, a City with infrastructure systems which can recover, and be well prepared for challenges in development process." 
+- "Become a prepared City, a City with infrastructure systems which can recover, and be well prepared for challenges in development process." 
 
 **Action**
 - Assessing flooding risk in new urbanized areas
@@ -240,7 +240,7 @@ class: inverse, center, middle
 # Methods
 
 ---
-# Data Inputs
+# Data Inputs (All the data we need in one spot) (Gavin) 
 
 ---
 # Analysis - Flood Risk Assessment
@@ -368,8 +368,7 @@ class: inverse, center, middle
 # Expense Sheet
 
 ---
-# Project Risks & Limitations
-
+# Project Risks & Limitations (Nick)
 
 ---
 # References (1/2)
