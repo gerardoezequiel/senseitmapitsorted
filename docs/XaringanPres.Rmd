@@ -237,7 +237,34 @@ Resilience Strategy for Da Nang - `r Citet(myBib, "100rcdanangteamResilienceCity
 ]
 
 ---
-# Objectives (Gerardo)
+class: center, middle, text-white
+background-image: url('img/danangflooding.jpg')
+background-size: cover
+background-position: center
+
+<div style="font-weight: bold; font-size: 2em;">
+
+<span style="background-color: rgba(40, 56, 88, 0.5); color: white; border-radius: 5px;">
+
+In the context of Da Nang's urban expansion, how can remote sensing be applied to improve urban planning strategies and substantially reduce flood vulnerability?
+
+</span>
+
+</div>
+
+---
+
+class: left, middle
+
+# Objectives
+
+- **Assess Impact**: Evaluate how urban expansion has affected flood vulnerability in Da Nang over the last 20 years using remote sensing.
+
+- **Identify Risks**: Pinpoint current areas at high flood risk due to urban growth.
+
+- **Forecast Future Risks**: Project future urban expansion patterns and their potential impact on flood vulnerability.
+
+- **Develop Strategies**: Recommend measures for mitigation and resilience against future flood risks.
 
 ---
 class: inverse, center, middle
