@@ -12,7 +12,11 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-
+background-image: url('img/logo.png')
+background-position: top right
+background-size: 120px
+layout: true
+---
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -157,7 +161,7 @@ Flooding has caused extensive damage to infrastructure, including crops, power s
 ]
 
 ---
-# Policy Context
+## Policy Context
 .pull-left[
 .body-small[
 **Global**
@@ -266,20 +270,42 @@ The model could be deployed before the next expected flood event in the rainy se
 ---
 ## Land Use / Expansion Analysis
 
-
 .pull-left[
 
-### Data Inputs
-.body-small[
-| Data | Source |
-| --- | --- |
-| Population time series data (current / predicted) | [World Population Review](https://worldpopulationreview.com/world-cities/da-nang-population)
-| Urban built up area | Sentinel-2 data |
+### Population and Urban Built-up Area
 
+```{r, echo = FALSE, out.width='100%', fig.align='center'}
+  knitr::include_graphics('img/urban_area_comparison.png')
+```
+
+.body-small[
+The built up area correlates with the population - an estimate of **181 km<sup>2</sup>** will be required by the year 2035
 ]
 ]
 
 .pull-right[
+.body-small[
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/urban_area.png')
+```
+
+.center[Built up area growth of Da Nang.]
+
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/DaNang_urbanArea.gif')
+```
+
+.center[Change of built up area from 2001-2022. Both images created from dataset by `r Citet(myBib, "friedl2022")`]
+
+Urban growth model will be applied to extend this prediction to the year 2035
+]
+]
+
+
+---
+## Land Use / Expansion Analysis
+
+.pull-left[
 
 ### Methodology
 .body-small[
@@ -291,73 +317,53 @@ The model could be deployed before the next expected flood event in the rainy se
 ]
 ]
 
----
-## Expected outputs
+.pull-right[
 
-### Built-up area estimations
+### Master Planning
+
+Da Nang Master Plan maps major development plans to be completed by 2030. Areas that will actually be built up can be determined from the projected area for each year.
+
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('https://baodanang.vn/dataimages/202209/original/images1665961_images1665187_Tao_dong_luc2.jpg')
+```
+
+The Da Nang Master Plan, cited from `r Citet(myBib, "tung2022")`
+
+]
+
+
+---
+## Outcomes /  Policy Insights
 
 .pull-left[
-
-.body-small[
-
-| Year | Population | Built up area (km<sup>2</sup>) |
-| ---: | ---: | ---: |
-| 2005 | 676,000 | 103 |
-| 2010 | 805,000 | 116 |
-| 2015 | 959,000 | 129 |
-| 2020 | 1,125,000 | 141 |
-| 2025 | 1,286,000 | 155 |
-| 2030 | 1,449,000 | 168 |
-| 2035 | 1,603,000 | 181 |
-
-Population estimates from `r Citet(myBib, "populationstat2024")`
-Built up area estimates from `r Citet(myBib, "friedl2022")` for 2001-2022, estimated from model for 2023 onwards
-
-]
-]
-
-.pull-right[
 
 ```{r, echo = FALSE, out.width='100%', fig.align='center'}
-  knitr::include_graphics('img/urban_area_comparison.png')
+  knitr::include_graphics('img/venn_diagram.png')
 ```
 
-.body-small[
-The built up area correlates with the population - an estimate of 181 km<sup>2</sup> will be required by the year 2035
-]
+Output illustration of project, indicating policy for each area.
 
 ]
 
-
----
-
-## Built Up Area Prediction
-
-.pull-left[
-
-```{r, echo = FALSE, out.width='75%', fig.align='center'}
-  knitr::include_graphics('img/urban_area.png')
-```
-
-.center[Built up area growth of Da Nang - created from dataset by `r Citep(myBib, "friedl2022")`]
-
-]
 
 .pull-right[
 
+#### Outcomes
 
-```{r, echo = FALSE, out.width='75%', fig.align='center'}
-  knitr::include_graphics('img/DaNang_urbanArea.gif')
-```
+- Quantity of required are for urban land use
+- Areas prone to flood risk
 
-.center[Change of built up area from 2001-2022. Created from dataset by `r Citet(myBib, "friedl2022")`]
+#### Policies
 
-Urban growth model will be applied to extend this prediction to the year 2035 - the estimated area growing to 181 km<sup>2</sup>
+**Future expansion of urban areas** should take place in safer areas or areas with improved flood barriers
+
+**Current urban areas prone to floods** should
+
+- consider relocating to a safer area
+- implement flood protective measures to mitigate damage
+
 
 ]
-
----
-# Output
 
 ---
 class: inverse, center, middle
