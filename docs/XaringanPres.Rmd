@@ -302,7 +302,10 @@ A Random Forest pixel-based model will be built, taking as inputs:
 ```{r, echo = FALSE, out.width='90%', fig.align='center'}
   knitr::include_graphics('img/aspect_slope.png')
 ```
-*Aspect Slope from Sentinel SAR*
+
+.center[
+  .image-caption[*Aspect Slope from Sentinel SAR*]
+]
 ]
 
 
