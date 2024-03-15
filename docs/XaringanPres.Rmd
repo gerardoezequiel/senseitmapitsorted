@@ -290,11 +290,20 @@ class: inverse, center, middle
 
 **Model to predict future extent of flooding**
 
+.pull-left[
 A Random Forest pixel-based model will be built, taking as inputs:
 - DEM data (flow accumulation),
 - NDBI (impervious surfaces),
 - Topographic Wetness Index (TWI),
 - RGB bands, or a composite of other bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`
+]
+
+.pull-right[
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/aspect_slope.png')
+```
+*Aspect Slope from Sentinel SAR*
+]
 
 
 --
