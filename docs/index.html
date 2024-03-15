@@ -172,15 +172,47 @@ Da Nang's Flood and Resilience Policy Hierarchy
 ]
 
 ---
-# Contributions to Global and National Policy 
+# Contributions to Policy 
 
-SDG 11.5 REDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS
+&lt;div style="margin-top: -10px; margin-bottom: -30px;"&gt;
+&lt;h3&gt; Global Policy &lt;h3&gt;
+&lt;/div&gt;
 
-By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.
+.pull-left[
 
-Sendai Risk = vulnerability x exposure x hazard 
+**Sustainable Development Goal 11.5**
 
-National adaptation Plan = REDUCE IMPACT OF FLOODING ON URBAN AREAS 
+.pull-left-little[
+&lt;img src="img/SDG115.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+.pull-right-large[
+
+.quote[By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.]
+]
+]
+
+.pull-right[
+
+**Sendai Framework**
+
+.pull-left-little[
+&lt;img src="img/Sendai.png" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+.pull-right-large[
+
+.quote[Priority 3: Investing in disaster risk reduction for resilience]
+
+.body-small[Where is Risk is a combination of vulnerability, exposure, &amp; hazard]
+
+]
+]
+
+
+### National Policy
+
+**Vietnam National Adaptation Plan:** .italics["Reduce Impact of Flooding on Urban Areas"]
 
 ---
 # Existing Resilience Strategy
@@ -216,9 +248,9 @@ background-image: url('img/danangflooding.jpg')
 background-size: cover
 background-position: center
 
-&lt;div style="font-weight: bold; font-size: 2em;"&gt;
+&lt;div style="font-weight: extra-bold; font-family: Josefin Sans; font-size: 2em;"&gt;
 
-&lt;span style="background-color: rgba(40, 56, 88, 0.5); color: white; border-radius: 5px;"&gt;
+&lt;span style="background-color: rgba(40, 56, 88, 0.8); color: white; border-radius: 5px;"&gt;
 
 In the context of Da Nang's urban expansion, how can remote sensing be applied to improve urban planning strategies and substantially reduce flood vulnerability?
 
@@ -258,9 +290,23 @@ class: inverse, center, middle
 ---
 # Flood Risk Assessment
 
-**Independent variables**
+**Model to predict future extent of flooding**
 
-A Random Forest pixel-based model will be built, taking as inputs: DEM data, NDBI (impervious surfaces), Topographic Wetness Index (TWI), RGB bands, or a composite of other bands calculated e.g. using PCA &lt;a name=cite-munawar2022remote&gt;&lt;/a&gt;([Munawar, Hammad, and Waller, 2022](#bib-munawar2022remote))
+.pull-left[
+A Random Forest pixel-based model will be built, taking as inputs:
+- DEM data (flow accumulation),
+- NDBI (impervious surfaces),
+- Topographic Wetness Index (TWI),
+- RGB bands, or a composite of other bands calculated e.g. using PCA &lt;a name=cite-munawar2022remote&gt;&lt;/a&gt;([Munawar, Hammad, and Waller, 2022](#bib-munawar2022remote))
+]
+
+.pull-right[
+&lt;img src="img/aspect_slope.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+.center[
+  .image-caption[*Aspect Slope from Sentinel SAR*]
+]
+]
 
 
 --
@@ -321,9 +367,9 @@ Urban growth model will be applied to extend this prediction to the year 2035
 Da Nang Master Plan maps major development plans to be completed by 2030. Areas that will actually be built up can be determined from the projected area for each year.
 
 &lt;img src="https://baodanang.vn/dataimages/202209/original/images1665961_images1665187_Tao_dong_luc2.jpg" width="75%" style="display: block; margin: auto;" /&gt;
-
-The Da Nang Master Plan, cited from &lt;a name=cite-tung2022&gt;&lt;/a&gt;[Tung (2022)](#bib-tung2022)
-
+.center[
+  .image-caption[The Da Nang Master Plan, cited from &lt;a name=cite-tung2022&gt;&lt;/a&gt;[Tung (2022)](#bib-tung2022)]
+]
 ]
 
 
