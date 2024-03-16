@@ -423,7 +423,7 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
 .pull-left[
 
 ```{r, echo = FALSE, out.width='100%', fig.align='center'}
-  knitr::include_graphics('img/venn_diagram.png')
+  knitr::include_graphics('img/venn_diagram2.png')
 ```
 .center[
   .image-caption[Output illustration of project, indicating policy for each area.]
