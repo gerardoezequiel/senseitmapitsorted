@@ -382,11 +382,18 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
 
 ---
 # Flood Risk Assessment
-**Dependent variable** A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event `r Citep(myBib, "tripathy2022global")`.
 
-```{r, echo = FALSE, out.width='75%', fig.align='center'}
+**Dependent variable** 
+
+A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event `r Citep(myBib, "tripathy2022global")`.
+
+```{r, echo = FALSE, out.width='55%', fig.align='center'}
   knitr::include_graphics('img/flood_map.gif')
 ```
+
+.center[
+  .image-caption[*Global Flood Mapper* `r Citet(myBib, "tripathy2022global")`]
+]
 
 ---
 # Flood Risk Assessment
