@@ -313,42 +313,6 @@ class: inverse, center, middle
   knitr::include_graphics('img/methodsflowchart.png')
 ```
 
----
-# Flood Risk Assessment
-**Dependent variable** A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event `r Citep(myBib, "tripathy2022global")`.
-
-```{r, echo = FALSE, out.width='75%', fig.align='center'}
-  knitr::include_graphics('img/flood_map.gif')
-```
-
----
-# Flood Risk Assessment
-
-**Model to predict future extent of flooding**
-
-.pull-left[
-A Random Forest pixel-based model will be built, taking as inputs:
-- DEM data (flow accumulation),
-- NDBI (impervious surfaces),
-- Topographic Wetness Index (TWI),
-- RGB bands, or a composite of other bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`
-]
-
-.pull-right[
-```{r, echo = FALSE, out.width='90%', fig.align='center'}
-  knitr::include_graphics('img/aspect_slope.png')
-```
-
-.center[
-  .image-caption[*Aspect Slope from Sentinel SAR*]
-]
-]
-
-
---
-**Model Deployment**
-
-The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
 
 ---
 
@@ -415,6 +379,43 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
   .image-caption[The Da Nang Master Plan, cited from `r Citet(myBib, "tung2022")`]
 ]
 ]
+
+---
+# Flood Risk Assessment
+**Dependent variable** A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event `r Citep(myBib, "tripathy2022global")`.
+
+```{r, echo = FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/flood_map.gif')
+```
+
+---
+# Flood Risk Assessment
+
+**Model to predict future extent of flooding**
+
+.pull-left[
+A Random Forest pixel-based model will be built, taking as inputs:
+- DEM data (flow accumulation),
+- NDBI (impervious surfaces),
+- Topographic Wetness Index (TWI),
+- RGB bands, or a composite of other bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`
+]
+
+.pull-right[
+```{r, echo = FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/aspect_slope.png')
+```
+
+.center[
+  .image-caption[*Aspect Slope from Sentinel SAR*]
+]
+]
+
+
+--
+**Model Deployment**
+
+The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
 
 
 ---

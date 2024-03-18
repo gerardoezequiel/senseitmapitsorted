@@ -281,38 +281,6 @@ class: inverse, center, middle
 
 &lt;img src="img/methodsflowchart.png" width="100%" style="display: block; margin: auto;" /&gt;
 
----
-# Flood Risk Assessment
-**Dependent variable** A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event &lt;a name=cite-tripathy2022global&gt;&lt;/a&gt;([Tripathy and Malladi, 2022](#bib-tripathy2022global)).
-
-&lt;img src="img/flood_map.gif" width="75%" style="display: block; margin: auto;" /&gt;
-
----
-# Flood Risk Assessment
-
-**Model to predict future extent of flooding**
-
-.pull-left[
-A Random Forest pixel-based model will be built, taking as inputs:
-- DEM data (flow accumulation),
-- NDBI (impervious surfaces),
-- Topographic Wetness Index (TWI),
-- RGB bands, or a composite of other bands calculated e.g. using PCA &lt;a name=cite-munawar2022remote&gt;&lt;/a&gt;([Munawar, Hammad, and Waller, 2022](#bib-munawar2022remote))
-]
-
-.pull-right[
-&lt;img src="img/aspect_slope.png" width="90%" style="display: block; margin: auto;" /&gt;
-
-.center[
-  .image-caption[*Aspect Slope from Sentinel SAR*]
-]
-]
-
-
---
-**Model Deployment**
-
-The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
 
 ---
 
@@ -371,6 +339,39 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
   .image-caption[The Da Nang Master Plan, cited from &lt;a name=cite-tung2022&gt;&lt;/a&gt;[Tung (2022)](#bib-tung2022)]
 ]
 ]
+
+---
+# Flood Risk Assessment
+**Dependent variable** A proxy of flooded areas will be extracted from the difference in SAR images before and during a flooding event &lt;a name=cite-tripathy2022global&gt;&lt;/a&gt;([Tripathy and Malladi, 2022](#bib-tripathy2022global)).
+
+&lt;img src="img/flood_map.gif" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+# Flood Risk Assessment
+
+**Model to predict future extent of flooding**
+
+.pull-left[
+A Random Forest pixel-based model will be built, taking as inputs:
+- DEM data (flow accumulation),
+- NDBI (impervious surfaces),
+- Topographic Wetness Index (TWI),
+- RGB bands, or a composite of other bands calculated e.g. using PCA &lt;a name=cite-munawar2022remote&gt;&lt;/a&gt;([Munawar, Hammad, and Waller, 2022](#bib-munawar2022remote))
+]
+
+.pull-right[
+&lt;img src="img/aspect_slope.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+.center[
+  .image-caption[*Aspect Slope from Sentinel SAR*]
+]
+]
+
+
+--
+**Model Deployment**
+
+The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
 
 
 ---
