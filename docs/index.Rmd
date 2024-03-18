@@ -453,7 +453,7 @@ Da Nang Master Plan maps major development plans to be completed by 2030. Areas 
 
 ---
 class: inverse, center, middle
-# Project Logistics (Vicki)
+# Project Logistics
 
 ---
 # Timeline
@@ -483,7 +483,7 @@ class: inverse, center, middle
 ]
 
 ---
-# Project Risks & Limitations (Nick)
+# Project Risks & Limitations
 
 
 ---
