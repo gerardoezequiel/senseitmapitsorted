@@ -484,8 +484,27 @@ class: inverse, center, middle
 ]
 
 ---
+
 # Project Risks & Limitations
 
+* **Budget Risks**: High or unforseen costs of acquiring and processing advanced remotely sensed data
+
+* **Stakeholder Engagement Risks**: Potential resistance from stakeholders due to potential displacement or poorly articulated project benefits.
+
+* **Data Accuracy Limitations**: Variability in data accuracy and resolution can lead to under or overestimation of flood risk zones.
+
+* **Ongoing Maintenance**: The need for continuous updates and maintenance of the flood risk map to reflect changes in land use, climate and urban development.
+
+---
+# Mitigation Actions
+
+* **Budget Mitigations**: Secure funding through a diversity of actors: government grants, partnerships with NGOs and collaborations with research institutions
+
+* **Stakeholder Mitigations**: Develop stakeholder engagement plan, including workshops and transparent communication, to ensure buy-in and support
+
+* **Data Accuracy Mitigations**: Utilise a combination of data sources and validation to enhance the accuracy and reliability
+
+* **Ongoing Maintenance**: Develop a sustainable funding model and operational plan that includes periodic review and updates
 
 ---
 class: inverse, middle
