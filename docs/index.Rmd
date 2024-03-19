@@ -403,9 +403,9 @@ A proxy of flooded areas will be extracted from the difference in SAR images bef
 .pull-left[
 A Random Forest pixel-based model will be built, taking as inputs:
 - DEM data (flow accumulation),
-- NDBI (impervious surfaces),
-- Topographic Wetness Index (TWI),
-- RGB bands, or a composite of other bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`
+- RGB bands, indices, like NDBI (impervious surfaces)
+- composite of bands calculated e.g. using PCA `r Citep(myBib, "munawar2022remote")`,
+- Topographic Wetness Index (TWI)
 ]
 
 .pull-right[
@@ -418,8 +418,6 @@ A Random Forest pixel-based model will be built, taking as inputs:
 ]
 ]
 
-
---
 **Model Deployment**
 
 The model could be deployed before the next expected flood event in the rainy season, to examine if the change in urban expansion will impact which areas are most likely to flood. This could inform appropriate precautionary measures the local government can take.
