@@ -519,7 +519,7 @@ background-size: cover
 
 ### .h1-background[We argue that an improved vulnerability asessment strategy which]
 ### .h1-background[a) Is powered by remote sensing]
-### .h1-background[b) Incorporates analysis of urban expansion and flood risk by combining a a diverse set of data data sources]
+### .h1-background[b) Incorporates analysis of urban expansion and flood risk by combining a diverse set of data sources]
 
 ### .h1-background[will allow Da Nang to more effectively plan its future development and strategically build infrastructure to prevent flooding where necessary]
 
